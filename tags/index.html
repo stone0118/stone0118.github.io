@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="博客,技术,分享,记录">
+<meta name="description" content="记录与分享~">
+<meta name="theme-color" content="#343a40">
+<title>Stone的万事屋</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1662112451783">
+<link rel="stylesheet" href="/media/css/pisces.css">
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link
+  href="//fonts.loli.net/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/default.css"
+  rel="stylesheet">
+
+<link rel="stylesheet" href="/styles/main.css">
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="/media/js/jquery.js"></script>
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/velocity/1.5.0/velocity.ui.min.js"></script>
+<link  href="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.11.1/katex.min.js" 
+integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous">
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ["\\(", "\\)"]],
+      displayMath: [['$$', '$$'], ["\\[", "\\]"]]
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code', 'a', 'annotation', 'annotation-xml'],
+      ignoreHtmlClass: 'tex2jax_ignore|crayon-.*', // 'crayon-' 开头的类，属于Wordpress代码高亮库，这部分不需要处理，否则会导致显示不正确,这部分是正则式，多条之间用'|'分割
+      processHtmlClass: 'tex2jax_process'
+    },
+    //禁用右键菜单	
+    renderActions: {
+      addMenu: [0, '', '']
+    }
+  };
+</script>
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?00a264d8f9d2d95140b78cdd329140d0";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+
+
+
+</head>
+
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
+    
+<div class="pisces">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>Stone的万事屋</span>
+            </a>  
+          
+        </div>
+        
+          <p class="subtitle">博客|技术|记录|分享~</p>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/" target="_self">
+                  <i class="fa fa-globe"></i> 首页
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives" target="_self">
+                  <i class="fa fa-globe"></i> 归档
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item nav-item-active">
+              
+              
+                <a href="/tags" target="_self">
+                  <i class="fa fa-globe"></i> 标签
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/post/about" target="_self">
+                  <i class="fa fa-globe"></i> 关于
+                </a>
+              
+            </li>
+          
+          
+          
+            <li id="fa_search" class="nav-item">
+              <a href="javascript:void(0);">
+                <i class="fa fa-search"></i> <span class="language" data-lan="search">搜索</span>
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
+    
+    <div
+      class="section-layout  pisces">
+      <div class="section-layout-wrapper">
+        <div id="sidebarMeta" class="sidebar">
+    
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name">Stone</p>
+    
+    <div class="site-description right-motion">
+      
+      
+      
+        <p>喜欢就关注我~</p>
+      
+      
+    </div>
+    
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">3</span>
+        <span class="site-item-stat-name language" data-lan="article">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">1</span>
+        <span class="site-item-stat-name language" data-lan="tag">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+      <div class="sidebar-item">
+        <span class="site-item-rss">
+            <i class="fa fa-rss"></i>
+            <a href="https://stone0118.github.io/atom.xml" target="_blank">RSS</a>
+        </span>
+      </div>
+    
+  
+  
+
+  
+
+
+
+  <div style="width: 100%; position: relative;">
+    <canvas id="canvasDiyBlock" style="width:100%;">当前浏览器不支持canvas，请更换浏览器后再试</canvas>
+    <script src="/media/js/magic/clock.js"></script>
+  </div>
+
+</div>
+</div>
+<script>
+  let sidebarMeta = document.querySelector('#sidebarMeta');
+  let scheme = 'pisces';
+  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
+  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
+    document.addEventListener('scroll', function(e) {
+      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
+        sidebarWrapper.classList.add('home-sidebar-fixed')
+      } else {
+        sidebarWrapper.classList.remove('home-sidebar-fixed')
+      }
+    });
+  }
+  </script>
+        <div class="section-box box-shadow-wrapper">
+          <section class="section tags-section bg-color posts-expand">
+            <div class="tags-box">
+  <div class="tag-cloud-title language" data-lan="cloud-tags" data-count="1">
+    非常好！目前共计 1 个标签，继续努力！
+  </div>
+  <div class="tag-cloud-list" id="tags">
+    
+      
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+      
+      <a class="cloud-tag" href="https://stone0118.github.io/tag/5apGxrhl4/" rel="3">实用教程</a>
+    
+  </div>
+</div>
+<script>
+
+  let fontStart = 12, fontEnd = 30, colorStart = '#666', colorEnd = '#000';
+  let tags = document.querySelector('#tags').children;
+  let counts = [];
+  for(let i = 0; i < tags.length; i++) {
+    counts.push(tags[i].rel);
+  }
+  let lowest = Math.min.apply(null,counts), highest = Math.max.apply(null,counts);;
+  let range = highest - lowest;
+  if (range === 0) {
+    range = 1;
+  }
+  let fontIncr, colorIncr;
+  fontIncr = (fontEnd - fontStart) / range;
+  
+  let sColorArr = toRGB(colorStart), eColorArr = toRGB(colorEnd);
+
+  for(let i = 0; i < tags.length; i++) {
+    let disCount = tags[i].rel - lowest;
+    let fontSize = fontStart + disCount * fontIncr;
+    let style = 'font-size: ' + fontSize + 'px;';
+    let arr = [];
+    for(let c = 0; c < sColorArr.length; c++) {
+      if (disCount === 0) {
+        disCount = 1;
+      }
+      let val = (sColorArr[c] - eColorArr[c]) / range * disCount;
+      if (val >= 100) {
+        val = eColorArr[c];
+      } else if (val <= 0) {
+        val = sColorArr[c];
+      }
+      arr[c] = Math.floor(val);
+    }
+    style += 'color: ' + toHex(arr);
+    tags[i].style = style;
+  }
+
+  function toRGB(code) {
+    if (code.length === 4) {
+      code = code.replace(/(\w)(\w)(\w)/gi, "\$1\$1\$2\$2\$3\$3");
+    }
+    var hex = /(\w{2})(\w{2})(\w{2})/.exec(code);
+    return [parseInt(hex[1], 16), parseInt(hex[2], 16), parseInt(hex[3], 16)];
+  }
+
+  function toHex(ary) {
+    return "#" + ((1 << 24) + (ary[0] << 16) + (ary[1] << 8) + ary[2]).toString(16).slice(1);
+  }
+
+</script>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <center id="runTimeBox">
+      本站已运行:<span id="run_time"></span>
+    </center>
+    <span id="busuanzi_container_site_pv">浏览数:<span id="busuanzi_value_site_pv"></span> 次</span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">访客数:<span id="busuanzi_value_site_uv"></span> 人</span>
+    <script>
+      BirthDay = new Date('05/20/2022');
+      if (BirthDay.getTime()) {
+        function runTime() {
+          str = "";
+          today = new Date();
+          timeold = today.getTime() - BirthDay.getTime();
+          msPerDay = 24 * 60 * 60 * 1000;
+          e_daysold = timeold / msPerDay;
+          daysold = Math.floor(e_daysold);
+          str += daysold + "天";
+          return str;
+        }
+        setInterval(function () {
+          $("#run_time").html(runTime());
+        }, 1000);
+      } else {
+        document.querySelector('.footer').removeChild(document.querySelector('#runTimeBox'));
+      }
+    </script>
+    <div class="poweredby">
+       <a href="www.baidu.com" target="_blank"></a>
+    </div>
+  </footer>
+  
+    
+        <div class="pisces back-to-top" id="back_to_top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span class="scrollpercent"> <span id="back_to_top_text">0</span>% </span>
+            
+        </div>
+        
+                  
+                        
+</div>
+<script>
+  let sideBarOpen = "sidebar-open";
+  let body = document.body;
+  let back2Top = document.querySelector("#back_to_top"),
+    back2TopText = document.querySelector("#back_to_top_text"),
+    drawerBox = document.querySelector("#drawer_box"),
+    rightSideBar = document.querySelector(".sidebar"),
+    viewport = document.querySelector("body");
+
+  function scrollAnimation(currentY, targetY) {
+    let needScrollTop = targetY - currentY;
+    let _currentY = currentY;
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10);
+      _currentY += dist;
+      window.scrollTo(_currentY, currentY);
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY);
+      } else {
+        window.scrollTo(_currentY, targetY);
+      }
+    }, 1);
+  }
+
+  back2Top.addEventListener("click", function (e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+
+  window.addEventListener("scroll", function (e) {
+    let percent =
+      (document.scrollingElement.scrollTop /
+        (document.scrollingElement.scrollHeight -
+          document.scrollingElement.clientHeight)) *
+      100;
+    if (percent > 1 && !back2Top.classList.contains("back-top-active")) {
+      back2Top.classList.add("back-top-active");
+    }
+    if (percent == 0) {
+      back2Top.classList.remove("back-top-active");
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+  let hasCacu = false;
+  window.addEventListener("resize", function (e) {
+    calcuHeight();
+  });
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (
+      (!hasCacu && back2Top.classList.contains("pisces")) ||
+      back2Top.classList.contains("gemini")
+    ) {
+      let sideBar = document.querySelector(".sidebar");
+      let navUl = document.querySelector("#site_nav");
+      sideBar.style =
+        "margin-top:" + (navUl.offsetHeight + navUl.offsetTop + 15) + "px;";
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+
+  let open = false,
+    MOTION_TIME = 300,
+    RIGHT_MOVE_DIS = "320px";
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll(".right-motion");
+    let right = drawerBox.classList.contains("right");
+
+    let transitionDir = right
+      ? "transition.slideRightIn"
+      : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS,
+      };
+      closeProp = {
+        paddingRight: "0px",
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS,
+      };
+      closeProp = {
+        paddingLeft: "0px",
+      };
+    }
+
+    drawerBox.onclick = function () {
+      open = !open;
+      jQuery.Velocity(rightSideBar, "stop");
+      jQuery.Velocity(viewport, "stop");
+      jQuery.Velocity(rightMotions, "stop");
+      if (open) {
+        jQuery.Velocity(
+          rightSideBar,
+          {
+            width: RIGHT_MOVE_DIS,
+          },
+          {
+            duration: MOTION_TIME,
+            begin: function () {
+              jQuery.Velocity(rightMotions, transitionDir, {});
+            },
+          }
+        );
+        jQuery.Velocity(viewport, openProp, {
+          duration: MOTION_TIME,
+        });
+      } else {
+        jQuery.Velocity(
+          rightSideBar,
+          {
+            width: "0px",
+          },
+          {
+            duration: MOTION_TIME,
+            begin: function () {
+              jQuery.Velocity(rightMotions, {
+                opacity: 0,
+              });
+            },
+          }
+        );
+        jQuery.Velocity(viewport, closeProp, {
+          duration: MOTION_TIME,
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle("muse-line");
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    };
+  }
+
+  // 链接跳转
+  let newWindow = "true";
+  if (newWindow === "true") {
+    let links = document.querySelectorAll(".post-body a");
+    links.forEach((item) => {
+      if (!item.classList.contains("btn")) {
+        item.setAttribute("target", "_blank");
+      }
+    });
+  }
+
+  let faSearch = document.querySelector("#fa_search");
+  faSearch &&
+    faSearch.addEventListener("click", function () {
+      document.querySelector("#search_mask").style = "";
+    });
+
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+
+  // 离开当前页title变化
+  var leaveTitle = "快回来哦~";
+  var normal_title = document.title;
+  if (leaveTitle) {
+    document.addEventListener("visibilitychange", function () {
+      if (document.visibilityState == "hidden") {
+        normal_title = document.title;
+        document.title = leaveTitle;
+      } else {
+        document.title = normal_title;
+      }
+    });
+  }
+</script>
+
+<link rel="stylesheet" href="/media/css/jquery.fancybox.css" />
+<script src="/media/js/jquery.fancybox.js"></script>
+
+<script>
+  let images = document.querySelectorAll(".section img");
+  images.forEach((image) => {
+    var parent = image.parentElement;
+    var next = image.nextElementSibling;
+    parent.removeChild(image);
+    var aelem = document.createElement("a");
+    aelem.href = image.src;
+    aelem.dataset["fancybox"] = "images";
+    aelem.dataset["rel"] = "fancybox-button";
+    aelem.classList.add("fancybox");
+    aelem.appendChild(image);
+    parent.insertBefore(aelem, next);
+  });
+</script>
+  </div>
+</body>
+
+  <div class="search-mask" id="search_mask" style="display: none;">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input id="search" type="text" class="language" data-lan="search" placeholder="搜索">
+      </div>
+      <i id="close" class="fa fa-times-circle"></i>
+    </div>
+    <div class="stat-box">
+      <span id="stat_count">0</span><span class="language" data-lan="stat">条相关条目，使用了</span><span id="stat_times">0</span><span class="language" data-lan="stat-time">毫秒</span>
+      <hr>
+    </div>
+    <div class="result" id="result">
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://stone0118.github.io/post/iosor-kuai-jie-zhi-ling-or-an-zhuang-ji-shi-yong-fang-fa/"" data-c="
+          &lt;blockquote&gt;
+&lt;h1 id=&#34;快捷指令介绍&#34;&gt;&lt;strong&gt;快捷指令介绍&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id1462947752&#34;&gt;&lt;strong&gt;快捷指令（又叫捷径）&lt;/strong&gt;&lt;/a&gt;【&lt;strong&gt;☜☜◀&lt;em&gt;如未安装，点击可跳转&lt;/em&gt;&lt;/strong&gt;】 是苹果公司开发的一款 App，我们可以用它创建包含多个步骤的操作，帮我们&lt;strong&gt;快速完成任务&lt;/strong&gt;，可让您创建包含多个步骤的快捷指令。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;它可以做什么，例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;主流平台视频/图片下载（可去平台水印）&lt;/li&gt;
+&lt;li&gt;联网控制&lt;/li&gt;
+&lt;li&gt;图片处理&lt;/li&gt;
+&lt;li&gt;电商平台历史价格查询&lt;/li&gt;
+&lt;li&gt;等等&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662110939718.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&#34;首次安装-使用教程新手必看&#34;&gt;&lt;strong&gt;首次安装 使用教程（新手必看）&lt;/strong&gt;&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;首次安装快捷指令规则，一般会有「无法打开」的提示，如下图：&lt;img src=&#34;https://stone0118.github.io/post-images/1662111002459.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;如出现上述情况，需要先打开系统 「&lt;strong&gt;设置—快捷指令&lt;/strong&gt;」，将「&lt;strong&gt;允许不受信任的快捷指令&lt;/strong&gt;」选项&lt;strong&gt;开启&lt;/strong&gt;即可。 &lt;img src=&#34;https://stone0118.github.io/post-images/1662111010667.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;如果出现，允许不受信任的快捷指令是「&lt;strong&gt;灰色的&lt;/strong&gt;」，无法开启，如下图&lt;img src=&#34;https://stone0118.github.io/post-images/1662111017542.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;如出现上述情况，需要先打开快捷指令 App，进入&lt;strong&gt;快捷指令中心&lt;/strong&gt;，现在那里&lt;strong&gt;随便获取一个&lt;/strong&gt;快捷指令，获取后&lt;strong&gt;点击运行一次&lt;/strong&gt;，看下图，即可解决&lt;img src=&#34;https://stone0118.github.io/post-images/1662111026778.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&#34;使用指令&#34;&gt;&lt;strong&gt;使用指令&lt;/strong&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;做好了以上设置，就可以顺利地安装别人分享的快捷指令了！本文将以下载&lt;mark&gt;IG视频图片为例&lt;/mark&gt;。【安装快捷指令APP后，获取更多指令可前往&lt;strong&gt;浏览器搜索IOS快捷指令网&lt;/strong&gt;，或&lt;strong&gt;商店搜索快捷指令&lt;/strong&gt;，可自行选择需要的指令哦~】&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;通过快捷指令网/APP的已有指令或别人分享的指令，点击&lt;a href=&#34;https://www.icloud.com/shortcuts/42e548447a89480fa30281c72e05cc92&#34;&gt;&lt;strong&gt;获取指令&lt;/strong&gt;&lt;/a&gt;【&lt;strong&gt;☜☜◀&lt;em&gt;点击可跳转&lt;/em&gt;&lt;/strong&gt;】&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662111116254.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;添加快捷指令&lt;/strong&gt;&lt;img src=&#34;https://stone0118.github.io/post-images/1662111120382.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;安装后的快捷指令会出现在「&lt;strong&gt;我的快捷指令&lt;/strong&gt;」页面~&lt;/li&gt;
+&lt;li&gt;前往IG&lt;strong&gt;复制链接&lt;/strong&gt;&lt;img src=&#34;https://stone0118.github.io/post-images/1662111131004.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;在我的&lt;strong&gt;快捷指令页面&lt;/strong&gt;，找到添加的指令，&lt;strong&gt;点击运行&lt;/strong&gt;即可，耐心等待，成功后可在相册中查看&lt;img src=&#34;https://stone0118.github.io/post-images/1662111142387.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;为方便使用，点击运行后提示的选项可选择始终允许。同时，可将快捷指令APP 小组建添加到负一屏或桌面哦~&lt;img src=&#34;https://stone0118.github.io/post-images/1662111147822.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&#34;无法连接到快捷指令中心怎么办&#34;&gt;无法连接到“快捷指令中心”怎么办？&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有时会出现&lt;strong&gt;添加&lt;/strong&gt;「快捷指令库」或其他人分享的快捷指令时，跳转到快捷指令App却出现「&lt;strong&gt;无法连接&lt;/strong&gt;到“快捷指令中心”」的错误提示，导致无法顺利添加指令。&lt;img src=&#34;https://stone0118.github.io/post-images/1662111163294.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;出现这种错误通常是网络问题导致，有2种可能的原因：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;iPhone/iPad所处网络环境无法正常访问苹果iCloud服务器&lt;br&gt;
+解决方法：尝试&lt;strong&gt;切换WiFi网络/蜂窝网络&lt;/strong&gt;，或者使用&lt;strong&gt;科学上网&lt;/strong&gt;以后，再尝试添加快捷指令。&lt;/li&gt;
+&lt;li&gt;苹果iCloud服务器异常&lt;br&gt;
+解决方法：&lt;strong&gt;等待苹果修复&lt;/strong&gt;，也可以尝试为设备开启科学上网完成快捷指令的添加。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&#34;总结&#34;&gt;总结&lt;/h1&gt;
+&lt;p&gt;&lt;mark&gt;快捷指令APP+指令&lt;/mark&gt;（渠道：上网搜索指令网/别人分享/商店），即可实现需要的功能哦~&lt;br&gt;
+分享几个快捷指令库以及对应的APP，自行选择哦~&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;快捷指令库 &lt;a href=&#34;https://www.rcuts.com/&#34;&gt;网站&lt;/a&gt;    &lt;a href=&#34;https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4%E5%BA%93-%E5%AE%9E%E7%94%A8%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8/id1619686694&#34;&gt;  APP&lt;/a&gt;【&lt;strong&gt;☜☜◀&lt;em&gt;点击可跳转&lt;/em&gt;&lt;/strong&gt;】&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;捷径社区 &lt;a href=&#34;https://sharecuts.cn/&#34;&gt;网站&lt;/a&gt;  &lt;a href=&#34;https://apps.apple.com/cn/app/%E6%8D%B7%E5%BE%84%E7%A4%BE%E5%8C%BA/id1440424713&#34;&gt;APP&lt;/a&gt;【&lt;strong&gt;☜☜◀&lt;em&gt;点击可跳转&lt;/em&gt;&lt;/strong&gt;】&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;捷径盒 &lt;a href=&#34;https://jiejinghe.com/&#34;&gt;网站&lt;/a&gt;  &lt;a href=&#34;https://apps.apple.com/cn/app/%E6%8D%B7%E5%BE%84%E7%9B%92-%E7%AE%80%E5%8D%95%E4%BE%BF%E6%8D%B7%E7%9A%84%E6%8D%B7%E5%BE%84-%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4%E7%A4%BE%E5%8C%BA/id1444534071&#34;&gt;APP&lt;/a&gt;【&lt;strong&gt;☜☜◀&lt;em&gt;点击可跳转&lt;/em&gt;&lt;/strong&gt;】&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+">IOS| 快捷指令| 安装及使用方法</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://stone0118.github.io/post/yi-dong-duan-you-hou-jiao-ben-an-zhuang-ji-shi-yong/"" data-c="
+          &lt;blockquote&gt;
+&lt;p&gt;在上一篇&lt;a href=&#34;https://stone0118.github.io/post/tampermonkeyyou-hou-or-an-zhuang-ji-shi-yong-fang-fa/&#34;&gt;&lt;strong&gt;PC端油猴脚本使用指南中&lt;/strong&gt;&lt;/a&gt;【&lt;strong&gt;☜☜◀&lt;em&gt;点击可跳转&lt;/em&gt;&lt;/strong&gt;】，我为大家简单介绍了用户脚本的一些能力介绍。在这一篇中，我将就两个主要话题继续分享一下：一个是&lt;mark&gt;IOS端&lt;/mark&gt;浏览器使用用户脚本，另一个则是&lt;mark&gt;Android端&lt;/mark&gt;浏览器使用脚本&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;ios-平台&#34;&gt;iOS 平台&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;mark&gt;Safari 浏览器&lt;/mark&gt;：需要配合Userscripts ，本文将以Safari浏览器为例。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;能支持用户脚本的浏览器：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Gear 浏览器：可以直接从脚本网站（如 &lt;strong&gt;&lt;a href=&#34;https://greasyfork.org/zh-CN&#34;&gt;GreaseFork&lt;/a&gt;&lt;/strong&gt; ）上安装用户脚本。订阅制收费。&lt;br&gt;
+使用方法见 文章：PC端| Tampermonkey（油猴）| 安装及使用方法&lt;/li&gt;
+&lt;li&gt;Alook 浏览器：自定义设置中有一个「JavaScript 扩展」的功能。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h2 id=&#34;插件介绍&#34;&gt;&lt;strong&gt;插件介绍&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Userscripts&lt;/strong&gt; 是一款专门为 Safari 设计的&lt;strong&gt;免费开源「油猴脚本」管理器&lt;/strong&gt;，支持 macOS 与 iPhone，可以极大的扩展 Safari 浏览器功能。 Userscripts 就是可以让海量的油猴脚本在 Safari&lt;br&gt;
+上运行的脚本管理器，和 Tampermonkey 是一个功能，只不过，&lt;strong&gt;它可以在 iPhone 上使用&lt;/strong&gt;，就很香了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h2 id=&#34;插件安装&#34;&gt;&lt;strong&gt;插件安装&lt;/strong&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;到商店下载：&lt;br&gt;
+&lt;mark&gt;&lt;a href=&#34;https://apps.apple.com/cn/app/userscripts/id1463298887&#34;&gt;&lt;strong&gt;Userscripts&lt;/strong&gt;&lt;/a&gt;&lt;/mark&gt;【&lt;strong&gt;☜☜◀&lt;em&gt;点击可跳转&lt;/em&gt;&lt;/strong&gt;】&lt;/li&gt;
+&lt;li&gt;下载完成后进行如下设置：&lt;br&gt;
+&lt;strong&gt;iPhone 系统设置 &amp;gt; Safari 浏览器 &amp;gt; 扩展 &amp;gt; Userscripts&lt;/strong&gt;&lt;img src=&#34;https://stone0118.github.io/post-images/1662045265993.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;Userscripts设置：&lt;br&gt;
+打开 Userscripts 应用本体，只有一个界面，需要在这里点击 Set Userscripts Directory &lt;strong&gt;设置存放脚本的目录&lt;/strong&gt;，之后只要这个目录下有新的脚本文件（.js），就会在 Safari 中自动加载。&lt;img src=&#34;https://stone0118.github.io/post-images/1662045323869.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h2 id=&#34;使用插件并安装脚本&#34;&gt;&lt;strong&gt;使用插件并安装脚本&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;点开脚本网 &lt;mark&gt;&lt;a href=&#34;https://greasyfork.org/zh-CN&#34;&gt;&lt;strong&gt;GreasyFork&lt;/strong&gt;&lt;/a&gt;&lt;/mark&gt;【&lt;strong&gt;☜☜◀&lt;em&gt;点击可跳转&lt;/em&gt;&lt;/strong&gt;】，根据自我需求进行安装使用，如图举例所示（GreasyFork中其它脚本操作方式都一样，自行参考哦~）&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662045585585.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662045592154.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662045596256.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662045602988.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662045606631.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662045612301.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662045617945.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662045622422.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;android平台&#34;&gt;Android平台&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;h2 id=&#34;支持扩展插件安卓端浏览器&#34;&gt;支持|扩展插件|安卓端浏览器&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;mark&gt;Kiwi Browse&lt;/mark&gt;：基于Chromium 核心，使用 Chrome 应用商店&lt;/li&gt;
+&lt;li&gt;Firefox：使用 Firefox 应用商店，使用自己的 Gecko 浏览器核心&lt;/li&gt;
+&lt;li&gt;Yandex：来自俄罗斯的应用，使用 Chrome 应用商店&lt;/li&gt;
+&lt;li&gt;神马浏览器（Sleipnir Mobile）：使用自己的应用商店&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&#34;kiwi-browser介绍&#34;&gt;&lt;strong&gt;Kiwi Browser介绍&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;以 Kiwi Browser 浏览器为例，虽然比起 Chrome 这种大牌选手 Kiwi Browser 的名气要小很多，但 &lt;strong&gt;「扩展插件支持」&lt;/strong&gt; 却早已成为了 它独有的身份标签，事实上，作为一款基于Chromium和WebKit内核开发的浏览器，Kiwi Browser 几乎完整迁移了 Chrome 浏览器的扩展管理功能。&lt;br&gt;
+&lt;strong&gt;很遗憾移动端谷歌浏览器不支持扩展，此时&lt;em&gt;Kiwi Browser&lt;/em&gt;将是不错的选择&lt;/strong&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&#34;如何安装扩展&#34;&gt;&lt;strong&gt;如何安装扩展&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;像在桌面端的 Chrome 一样，访问 &lt;mark&gt;&lt;a href=&#34;https://chrome.google.com/webstore/category/extensions&#34;&gt;&lt;strong&gt;Chrome 网上应用店&lt;/strong&gt;&lt;/a&gt;&lt;/mark&gt;【&lt;strong&gt;☜☜◀&lt;em&gt;点击可跳转&lt;/em&gt;&lt;/strong&gt;】，直接搜索并添加需要的扩展，直接搜索&lt;strong&gt;tampermonkey&lt;/strong&gt;进行安装。&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662052110712.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+安装好的扩展可以在菜单的「Extension」项中看到，也可以在地址栏中输入 &lt;em&gt;&lt;strong&gt;chrome://extensions&lt;/strong&gt;&lt;/em&gt;进行访问。打开/关闭扩展等选项，和桌面版 Chrome 基本一致。&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662052132936.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;如果因为一些网络原因，无法正常访问商店，那么你也可以手动安装 .crx/.zip 等格式的扩展。只要将扩展文件保存到本地，打开「开发者模式」，点按Load，然后选择扩展文件即可。前往&lt;a href=&#34;https://chrome.zzzmh.cn/#/extension&#34;&gt;&lt;strong&gt;极简插件&lt;/strong&gt;&lt;/a&gt; 【&lt;strong&gt;☜☜◀&lt;em&gt;点击可跳转&lt;/em&gt;&lt;/strong&gt;】进行安装也可。&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662052163696.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;strong&gt;如果网络环境允许，建议直接通过 Chrome 网上应用店查找扩展，方便快捷。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;支持用户脚本移动端浏览器&#34;&gt;支持|&lt;em&gt;用户脚本&lt;/em&gt;|移动端浏览器&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;相对来说，&lt;strong&gt;支持用户脚本的移动端浏览器更多&lt;/strong&gt;，对于浏览器开发者来说，只要适配一用Javascript&lt;br&gt;
+写的用户脚本就可以了。这些脚本经过很多年的沉淀，已经有了一套比较好的规范，加上也有比较完善的脚本分发渠道，因此开发者也完全不需要考虑上述应用商店上架、发布、审核的问题。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;mark&gt;Via 浏览器&lt;/mark&gt;：支持用户脚本&lt;/li&gt;
+&lt;li&gt;X 浏览器：支持用户脚本&lt;/li&gt;
+&lt;li&gt;M 浏览器：支持用户脚本&lt;/li&gt;
+&lt;li&gt;油猴浏览器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&#34;via-介绍&#34;&gt;&lt;strong&gt;Via 介绍&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;mark&gt;&lt;a href=&#34;https://viayoo.com/zh-cn/&#34;&gt;&lt;strong&gt;以 Via 浏览器为例&lt;/strong&gt;&lt;/a&gt;&lt;/mark&gt;【&lt;strong&gt;☜☜◀&lt;em&gt;点击可跳转&lt;/em&gt;&lt;/strong&gt;】，其主&lt;strong&gt;打功能是轻量&lt;/strong&gt;，安装包体积非常小。Via 浏览器刚上线的时候，不到 200kb 的体积确实非常惊艳。能做到这一点的原因是 Via 没有在安装包内放进浏览器内核，而是使用了你手机上 Android 系统的WebView。 同时 Via还支持自定义设置和插件，甚至还有人开发了第三方的 &lt;mark&gt;&lt;a href=&#34;http://via-app.cn/#/tabBar/home&#34;&gt;&lt;strong&gt;via插件&lt;/strong&gt;&lt;/a&gt;&lt;/mark&gt;【&lt;strong&gt;☜☜◀&lt;em&gt;点击可跳转&lt;/em&gt;&lt;/strong&gt;】&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662052518287.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&#34;如何使用&#34;&gt;&lt;strong&gt;如何使用&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;这个插件同时还支持 iOS 平台的 alook 浏览器等，这里我尝试安装一下这个「网页复制限制解除」的插件给大家看一下，点击安装之后自动弹出一个安装器来：&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662052538771.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&#34;总结&#34;&gt;总结&lt;/h1&gt;
+&lt;h2 id=&#34;pc端&#34;&gt;PC端&lt;/h2&gt;
+&lt;p&gt;&lt;mark&gt;谷歌浏览器/EDG浏览器+Tampermonkey+Greasy Fork&lt;/mark&gt; 即可实现需要的功能；&lt;/p&gt;
+&lt;h2 id=&#34;移动端&#34;&gt;移动端&lt;/h2&gt;
+&lt;p&gt;IOS：&lt;br&gt;
+&lt;mark&gt;Safari + Userscripts + Greasy Fork&lt;/mark&gt; 即可实现需要的功能；&lt;br&gt;
+Android：&lt;br&gt;
+&lt;mark&gt;Kiwi Browser + Tampermonkey + Greasy Fork&lt;/mark&gt; 即可实现需要的功能；&lt;/p&gt;
+&lt;/blockquote&gt;
+">移动端「油猴脚本」安装及使用</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://stone0118.github.io/post/tampermonkeyyou-hou-or-an-zhuang-ji-shi-yong-fang-fa/"" data-c="
+          &lt;blockquote&gt;
+&lt;h1 id=&#34;插件介绍&#34;&gt;&lt;strong&gt;插件介绍&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;Tampermonkey(俗称油猴) 是一款免费的&lt;mark&gt;浏览器扩展和用户脚本管理器&lt;/mark&gt;，它&lt;strong&gt;适用于 Chrome, Microsoft Edge,Safari, Opera Next, 和 Firefox&lt;/strong&gt;。通过它可在浏览器上使用、安装各种脚本，当然&lt;strong&gt;脚本文件还是需要自己获取&lt;/strong&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;它可以做什么，例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;直接下载百度网盘文件(全速)&lt;/li&gt;
+&lt;li&gt;去掉视频播放广告(甚至播放vip视频)&lt;/li&gt;
+&lt;li&gt;去各类视频/图片水印&lt;/li&gt;
+&lt;li&gt;绕过搜索引擎的跳转提示&lt;/li&gt;
+&lt;li&gt;还原清新的小说阅读模式&lt;/li&gt;
+&lt;li&gt;等等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&#34;插件安装&#34;&gt;&lt;strong&gt;插件安装&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;在浏览器的自带的插件商店，或者第三方插件商店（例如：&lt;strong&gt;&lt;a href=&#34;https://chrome.zzzmh.cn/index&#34;&gt;极简插件_Chrome扩展插件商店&lt;/a&gt;&lt;/strong&gt; 【&lt;strong&gt;☜☜◀&lt;em&gt;点击可跳转&lt;/em&gt;&lt;/strong&gt;】，或者进入Tampermonkey官网（&lt;strong&gt;&lt;a href=&#34;https://www.tampermonkey.net/&#34;&gt;Tampermonkey&lt;/a&gt;&lt;/strong&gt;）【&lt;strong&gt;☜☜◀&lt;em&gt;点击可跳转&lt;/em&gt;&lt;/strong&gt;】下载并安装。&lt;br&gt;
+&lt;em&gt;&lt;strong&gt;以下都以Edge浏览器为例&lt;/strong&gt;&lt;/em&gt;。&lt;img src=&#34;https://stone0118.github.io/post-images/1662039341824.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+Tampermonkey Stable为正式版（&lt;strong&gt;选它&lt;/strong&gt;），Tampermonkey Beta为测试版&lt;br&gt;
+点击&lt;strong&gt;下载&lt;/strong&gt;，页面跳转至Edge外接扩展商店的安装页面，我们直接&lt;strong&gt;获取&lt;/strong&gt;安装就好了，如下图。&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662039352839.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+Edge以外的其他浏览器点击下载则会跳转至&lt;a href=&#34;https://chrome.google.com/webstore/category/extensions&#34;&gt;&lt;strong&gt;chrome&lt;br&gt;
+网上应用店&lt;/strong&gt;&lt;/a&gt; 【&lt;strong&gt;☜☜◀&lt;em&gt;点击可跳转&lt;/em&gt;&lt;/strong&gt;】正常情况下咱们是打不开的，&lt;strong&gt;需要科学上网&lt;/strong&gt;才可以打开。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&#34;使用插件并安装脚本&#34;&gt;&lt;strong&gt;使用插件并安装脚本&lt;/strong&gt;&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;下载成功后，会发现浏览器的&lt;strong&gt;右上角&lt;/strong&gt;出现Tampermonkey 的&lt;strong&gt;图标&lt;/strong&gt;（如未显示，可重新打开浏览器）。&lt;br&gt;
+当&lt;strong&gt;有脚本正在运行时&lt;/strong&gt;，Tampermonkey图标右下角&lt;strong&gt;会显示数字&lt;/strong&gt;，代表正有几个脚本正在运行，如果某脚本在不应当运行的页面运行（大部分脚本在介绍时都会说明应用的站点），请谨慎。&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662039379117.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;点开 &lt;strong&gt;&lt;a href=&#34;https://greasyfork.org/zh-CN/scripts&#34;&gt;GreasyFork&lt;/a&gt;&lt;/strong&gt;【&lt;strong&gt;☜☜◀&lt;em&gt;点击可跳转&lt;/em&gt;&lt;/strong&gt;】 之后的页面是这样的：&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662039408517.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;这时候可以用关键词&lt;strong&gt;搜索&lt;/strong&gt;或者&lt;strong&gt;脚本列表&lt;/strong&gt;搜索相关的脚本.&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662039562042.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;我们这时候选择一个适合自己的，看简介是否符合的要求，选择适合自己的，然后点击“&lt;strong&gt;安装此脚本&lt;/strong&gt;”的绿色按钮下载。&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662039500705.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;点开视频网站， 点击 Tampermonkey 的图标，找到插件点击左边的白点点，&lt;strong&gt;运行该插件&lt;/strong&gt;（正常情况安装脚本后 会自动启动）。&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662039530008.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;脚本管理&lt;/strong&gt;,&lt;strong&gt;点击插件&lt;/strong&gt;,然后在点击&lt;strong&gt;管理面板&lt;/strong&gt;,这时候就可以展示我们安装的脚本了，可进行&lt;strong&gt;删除或者禁用&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662039539844.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://stone0118.github.io/post-images/1662039547070.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;使用须知：&lt;/strong&gt;&lt;br&gt;
+那么，安装的这些脚本靠谱吗？&lt;br&gt;
+恶意脚本是可以侵犯我们的隐私，并能够代表我们来进行其他操作。Tampermonkey本身是有着严格的权限设置的，只要你是在其官方渠道下载的脚本，我们应当在尽可能安全的渠道安装脚本。&lt;br&gt;
+&lt;strong&gt;最后，希望大家正确规范使用工具解决问题，合理使用，对他人负责，对自己负责。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&#34;总结&#34;&gt;总结&lt;/h1&gt;
+&lt;h2 id=&#34;pc端&#34;&gt;PC端&lt;/h2&gt;
+&lt;p&gt;&lt;mark&gt;谷歌浏览器/EDG浏览器+Tampermonkey+Greasy Fork&lt;/mark&gt; 即可实现需要的功能；&lt;/p&gt;
+&lt;h2 id=&#34;移动端&#34;&gt;移动端&lt;/h2&gt;
+&lt;p&gt;IOS：&lt;br&gt;
+&lt;mark&gt;Safari + Userscripts + Greasy Fork&lt;/mark&gt; 即可实现需要的功能；&lt;br&gt;
+Android：&lt;br&gt;
+&lt;mark&gt;Kiwi Browser + Tampermonkey + Greasy Fork&lt;/mark&gt; 即可实现需要的功能；&lt;/p&gt;
+&lt;/blockquote&gt;
+">PC端| Tampermonkey（油猴）| 安装及使用方法</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://stone0118.github.io/post/about/"" data-c="
+          &lt;blockquote&gt;
+&lt;p&gt;欢迎来到我的小站呀，很高兴遇见你！🤝&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;关于本站&#34;&gt;🏠 关于本站&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;欢迎访问我的个人博客|记录与分享~&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;博主是谁&#34;&gt;👨‍💻 博主是谁&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Stone&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;兴趣爱好&#34;&gt;⛹ 兴趣爱好&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;菜鸟一枚，多多关照~&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;联系我呀&#34;&gt;📬 联系我呀&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本页留言我可以看到~&lt;br&gt;
+&lt;em&gt;评论系统&lt;strong&gt;无需登陆&lt;/strong&gt;即可发言，目前需要配合&lt;strong&gt;科学上网&lt;/strong&gt;可发言展示，填写任意真实QQ邮箱可自动获取头像。完善中&lt;/em&gt;~&lt;/p&gt;
+&lt;/blockquote&gt;
+">关于</a>
+      </div>
+      
+    </div>
+    <div class="page">
+      <div id="page_ul"></div>
+    </div>
+  </div>
+</div>
+<script>
+  !function () {
+    let searchMask = document.querySelector('#search_mask');
+    let result = document.querySelector('#result');
+    let items = document.querySelectorAll('.item');
+    let searchBox = document.querySelector('#search');
+    let statCount = document.querySelector('#stat_count');
+    let statTimes = document.querySelector('#stat_times');
+    let pageUl = document.querySelector('#page_ul');
+    let close = document.querySelector('#close');
+    
+    close.addEventListener('click', function() {
+      searchMask.style = 'display: none;'
+    })
+
+    let finds = [];
+    let contents = [];
+    let pageSize = 10;
+    items.forEach(item => {
+      let a = item.querySelector('a');
+      contents.push({
+        title: a.innerText,
+        details: a.dataset.c,
+        link: a.href
+      })
+      item.remove();
+    })
+
+    function insertStr(soure, start, count) {
+      let newStr = soure.substr(start, count);
+      return soure.slice(0, start) + '<em>' + newStr + '</em>' + soure.slice(start + count);
+    }
+
+    pageUl.addEventListener('click', function(event) {
+      let target = event.target;
+      if (target.__proto__ === HTMLSpanElement.prototype) {
+        appendResults(parseInt(target.dataset.i));
+      }
+    })
+
+    function appendResults(index) {
+      let htmlResult = '';
+      let start = index || 0;
+      let end = Math.min(start + pageSize, finds.length);
+      for (let i = start; i < end; i++) {
+        const current = finds[i];
+        let html = current.title;
+        let sum = 0;
+        let positions = current.positions;
+        positions.forEach(position => {
+          html = insertStr(html, position.start + sum, position.count);
+          sum += 9;
+        })
+        htmlResult += `<div class="item"><a class="result-title" href="${current.link}">${html}</a></div>`;
+      }
+      result.innerHTML = htmlResult;
+      pageUl.innerHTML = '';
+      let count = finds.length / pageSize;
+      let lis = '';
+      if (start !== 0) {
+        lis += `<span class="fa fa-angle-left" data-i='${start - 1}'></span>`;
+      }
+      for (let i = 0; i < count; i++) {
+        lis += `<span class='${i === start?'current':''}' data-i='${i}'>${i+1}</span>`;     
+      }
+      if (start+1 < count) {
+        lis += `<span class="fa fa-angle-right" data-i='${start+1}'></span>`;  
+      }
+      pageUl.innerHTML = lis;
+    }
+
+    function search(delay) {
+      let timer = null
+      return function () {
+        clearTimeout(timer)
+        timer = setTimeout(() => {
+          let start = Date.now();
+          let segments = searchBox.value.split(' ').filter(c => c != '');
+          if (segments.length <= 0) {
+            return;
+          }
+          finds = [];
+          let htmlResult = '';
+          contents.forEach(content => {
+            let title = content.title;
+            let positions = [];
+            let find = false;
+            segments.forEach((segment) => {
+              if (content.title.includes(segment)) {
+                find = true;
+                positions.push({
+                  start: content.title.indexOf(segment),
+                  count: segment.length
+                })
+              } else if (content.details.includes(segment)) {
+                find = true;
+              }
+            });
+            if (find) {
+              finds.push({
+                title: content.title,
+                link: content.link,
+                positions
+              });
+            }
+          })
+          appendResults(0);
+          statCount.textContent = finds.length;
+          statTimes.textContent = Date.now() - start;
+        }, delay)
+      }
+    }
+    searchBox.addEventListener('input', search(200));
+  }()
+</script>
+
+<input hidden id="copy" />
+<script>
+  !function () {
+    let times = document.querySelectorAll('.publish-time');
+    for (let i = 0; i < times.length; i++) {
+      let date = times[i].dataset.t;
+      let time = Math.floor((new Date().getTime() - new Date(date).getTime()) / 1000);
+      if (time < 60) {
+        str = time + '秒之前';
+      } else if (time < 3600) {
+        str = Math.floor(time / 60) + '分钟之前';
+      } else if (time >= 3600 && time < 86400) {
+        str = Math.floor(time / 3600) + '小时之前';
+      } else if (time >= 86400 && time < 259200) {
+        str = Math.floor(time / 86400) + '天之前';
+      } else {
+        str = times[i].textContent;
+      }
+      times[i].textContent = str;
+    }
+  }();
+</script>
+
+<script>
+  let language = '';
+  if (language !== '') {
+    let map = new Map();
+    if (language === 'en') {
+      map.set('search', 'Search');
+      map.set('category', 'Categories');
+      map.set('article', 'Articles');
+      map.set('tag', 'Tags');
+      map.set('top', 'Top');
+      map.set('publish', 'published');
+      map.set('minute', ' minutes');
+      map.set('read-more', 'Read More');
+      map.set('view', 'View');
+      map.set('words', ' words');
+      map.set('category-in', 'category in');
+      map.set('preview', 'Meta');
+      map.set('index', 'Toc');
+      map.set('no-archives', "You haven't created yet");
+      map.set('archives', " articles in total");
+      map.set('cloud-tags', " tags in total");
+      map.set('copyright', "Copyright: ");
+      map.set('author', "Author: ");
+      map.set('link', "Link: ");
+      map.set('leave-message', "Leave a message");
+      map.set('format', "Links Format");
+      map.set('site-name', "Name: ");
+      map.set('site-link', "Link: ");
+      map.set('site-desc', "Desc: ");
+      map.set('stat', " related results, taking ");
+      map.set('stat-time', " ms");
+      map.set('site-img', "Image: ");
+    }
+
+    if (map.size > 0) {
+      let lanElems = document.querySelectorAll('.language');
+      lanElems.forEach(elem => {
+        let lan = elem.dataset.lan, text = map.get(lan);
+        if (elem.__proto__ === HTMLInputElement.prototype) {
+          elem.placeholder = text
+        } else {
+          if (elem.dataset.count) {
+            text = elem.dataset.count + text;
+          }
+          elem.textContent = text;
+        }
+      })
+    }
+  }
+
+  window.Clipboard = (function (window, document, navigator) {
+    var textArea,
+      copy;
+
+    // 判断是不是ios端
+    function isOS() {
+      return navigator.userAgent.match(/ipad|iphone/i);
+    }
+    //创建文本元素
+    function createTextArea(text) {
+      textArea = document.createElement('textArea');
+      textArea.value = text;
+      textArea.style.width = 0;
+      textArea.style.height = 0;
+      textArea.clientHeight = 0;
+      textArea.clientWidth = 0;
+      document.body.appendChild(textArea);
+    }
+    //选择内容
+    function selectText() {
+      var range,
+        selection;
+
+      if (isOS()) {
+        range = document.createRange();
+        range.selectNodeContents(textArea);
+        selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        textArea.setSelectionRange(0, 999999);
+      } else {
+        textArea.select();
+      }
+    }
+
+    //复制到剪贴板
+    function copyToClipboard() {
+      try {
+        document.execCommand("Copy")
+      } catch (err) {
+        alert("复制错误！请手动复制！")
+      }
+      document.body.removeChild(textArea);
+    }
+
+    copy = function (text) {
+      createTextArea(text);
+      selectText();
+      copyToClipboard();
+    };
+
+    return {
+      copy: copy
+    };
+  })(window, document, navigator);
+
+  function copyCode(e) {
+    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+      let code = e.currentTarget.querySelector('code');
+      var text = code.innerText;
+      if (e.srcElement.textContent === '复制成功') {
+        return;
+      }
+      e.srcElement.textContent = '复制成功';
+      (function (elem) {
+        setTimeout(() => {
+          if (elem.textContent === '复制成功') {
+            elem.textContent = '复制代码'
+          }
+        }, 1000);
+      })(e.srcElement)
+      Clipboard.copy(text);
+    }
+  }
+
+  let pres = document.querySelectorAll('pre');
+  pres.forEach(pre => {
+    let code = pre.querySelector('code');
+    let copyElem = document.createElement('span');
+    copyElem.classList.add('copy-code');
+    copyElem.textContent = '复制代码';
+    pre.appendChild(copyElem);
+    pre.onclick = copyCode
+  })
+
+</script>
+<script src="/media/js/motion.js"></script>
+
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/smooth-scroll/16.1.2/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 200
+    });
+  </script>
+
+
+
+<script src="/media/js/mouse/peace.js"></script>
+
+
+
+
+  <div class="snow-container"></div>
+  <script color="0,205,205" pointer-events="auto" zIndex="-1" opacity='0.7' count="99" src="/media/js/bg/canvas-nest.js"></script>
+
+
+</html>

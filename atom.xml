@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://stone0118.github.io</id>
+    <title>Stone的万事屋</title>
+    <updated>2022-09-02T09:54:13.967Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://stone0118.github.io"/>
+    <link rel="self" href="https://stone0118.github.io/atom.xml"/>
+    <subtitle>记录与分享~</subtitle>
+    <logo>https://stone0118.github.io/images/avatar.png</logo>
+    <icon>https://stone0118.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, Stone的万事屋</rights>
+    <entry>
+        <title type="html"><![CDATA[IOS| 快捷指令| 安装及使用方法]]></title>
+        <id>https://stone0118.github.io/post/iosor-kuai-jie-zhi-ling-or-an-zhuang-ji-shi-yong-fang-fa/</id>
+        <link href="https://stone0118.github.io/post/iosor-kuai-jie-zhi-ling-or-an-zhuang-ji-shi-yong-fang-fa/">
+        </link>
+        <updated>2022-09-02T08:14:44.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<h1 id="快捷指令介绍"><strong>快捷指令介绍</strong></h1>
+<p><a href="https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id1462947752"><strong>快捷指令（又叫捷径）</strong></a>【<strong>☜☜◀<em>如未安装，点击可跳转</em></strong>】 是苹果公司开发的一款 App，我们可以用它创建包含多个步骤的操作，帮我们<strong>快速完成任务</strong>，可让您创建包含多个步骤的快捷指令。</p>
+<hr>
+<p>它可以做什么，例如：</p>
+<ul>
+<li>主流平台视频/图片下载（可去平台水印）</li>
+<li>联网控制</li>
+<li>图片处理</li>
+<li>电商平台历史价格查询</li>
+<li>等等<br>
+<img src="https://stone0118.github.io/post-images/1662110939718.png" alt="" loading="lazy"></li>
+</ul>
+</blockquote>
+<blockquote>
+<h1 id="首次安装-使用教程新手必看"><strong>首次安装 使用教程（新手必看）</strong></h1>
+<ol>
+<li>首次安装快捷指令规则，一般会有「无法打开」的提示，如下图：<img src="https://stone0118.github.io/post-images/1662111002459.png" alt="" loading="lazy"></li>
+<li>如出现上述情况，需要先打开系统 「<strong>设置—快捷指令</strong>」，将「<strong>允许不受信任的快捷指令</strong>」选项<strong>开启</strong>即可。 <img src="https://stone0118.github.io/post-images/1662111010667.png" alt="" loading="lazy"></li>
+<li>如果出现，允许不受信任的快捷指令是「<strong>灰色的</strong>」，无法开启，如下图<img src="https://stone0118.github.io/post-images/1662111017542.png" alt="" loading="lazy"></li>
+<li>如出现上述情况，需要先打开快捷指令 App，进入<strong>快捷指令中心</strong>，现在那里<strong>随便获取一个</strong>快捷指令，获取后<strong>点击运行一次</strong>，看下图，即可解决<img src="https://stone0118.github.io/post-images/1662111026778.png" alt="" loading="lazy"></li>
+</ol>
+</blockquote>
+<blockquote>
+<h1 id="使用指令"><strong>使用指令</strong></h1>
+<blockquote>
+<p>做好了以上设置，就可以顺利地安装别人分享的快捷指令了！本文将以下载<mark>IG视频图片为例</mark>。【安装快捷指令APP后，获取更多指令可前往<strong>浏览器搜索IOS快捷指令网</strong>，或<strong>商店搜索快捷指令</strong>，可自行选择需要的指令哦~】</p>
+</blockquote>
+<ol>
+<li>通过快捷指令网/APP的已有指令或别人分享的指令，点击<a href="https://www.icloud.com/shortcuts/42e548447a89480fa30281c72e05cc92"><strong>获取指令</strong></a>【<strong>☜☜◀<em>点击可跳转</em></strong>】<br>
+<img src="https://stone0118.github.io/post-images/1662111116254.png" alt="" loading="lazy"></li>
+<li><strong>添加快捷指令</strong><img src="https://stone0118.github.io/post-images/1662111120382.png" alt="" loading="lazy"></li>
+<li>安装后的快捷指令会出现在「<strong>我的快捷指令</strong>」页面~</li>
+<li>前往IG<strong>复制链接</strong><img src="https://stone0118.github.io/post-images/1662111131004.png" alt="" loading="lazy"></li>
+<li>在我的<strong>快捷指令页面</strong>，找到添加的指令，<strong>点击运行</strong>即可，耐心等待，成功后可在相册中查看<img src="https://stone0118.github.io/post-images/1662111142387.png" alt="" loading="lazy"></li>
+<li>为方便使用，点击运行后提示的选项可选择始终允许。同时，可将快捷指令APP 小组建添加到负一屏或桌面哦~<img src="https://stone0118.github.io/post-images/1662111147822.png" alt="" loading="lazy"></li>
+</ol>
+</blockquote>
+<blockquote>
+<h1 id="无法连接到快捷指令中心怎么办">无法连接到“快捷指令中心”怎么办？</h1>
+<blockquote>
+<p>有时会出现<strong>添加</strong>「快捷指令库」或其他人分享的快捷指令时，跳转到快捷指令App却出现「<strong>无法连接</strong>到“快捷指令中心”」的错误提示，导致无法顺利添加指令。<img src="https://stone0118.github.io/post-images/1662111163294.png" alt="" loading="lazy"></p>
+</blockquote>
+<p>出现这种错误通常是网络问题导致，有2种可能的原因：</p>
+<ol>
+<li>iPhone/iPad所处网络环境无法正常访问苹果iCloud服务器<br>
+解决方法：尝试<strong>切换WiFi网络/蜂窝网络</strong>，或者使用<strong>科学上网</strong>以后，再尝试添加快捷指令。</li>
+<li>苹果iCloud服务器异常<br>
+解决方法：<strong>等待苹果修复</strong>，也可以尝试为设备开启科学上网完成快捷指令的添加。</li>
+</ol>
+</blockquote>
+<blockquote>
+<h1 id="总结">总结</h1>
+<p><mark>快捷指令APP+指令</mark>（渠道：上网搜索指令网/别人分享/商店），即可实现需要的功能哦~<br>
+分享几个快捷指令库以及对应的APP，自行选择哦~</p>
+<ul>
+<li>
+<p>快捷指令库 <a href="https://www.rcuts.com/">网站</a>    <a href="https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4%E5%BA%93-%E5%AE%9E%E7%94%A8%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8/id1619686694">  APP</a>【<strong>☜☜◀<em>点击可跳转</em></strong>】</p>
+</li>
+<li>
+<p>捷径社区 <a href="https://sharecuts.cn/">网站</a>  <a href="https://apps.apple.com/cn/app/%E6%8D%B7%E5%BE%84%E7%A4%BE%E5%8C%BA/id1440424713">APP</a>【<strong>☜☜◀<em>点击可跳转</em></strong>】</p>
+</li>
+<li>
+<p>捷径盒 <a href="https://jiejinghe.com/">网站</a>  <a href="https://apps.apple.com/cn/app/%E6%8D%B7%E5%BE%84%E7%9B%92-%E7%AE%80%E5%8D%95%E4%BE%BF%E6%8D%B7%E7%9A%84%E6%8D%B7%E5%BE%84-%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4%E7%A4%BE%E5%8C%BA/id1444534071">APP</a>【<strong>☜☜◀<em>点击可跳转</em></strong>】</p>
+</li>
+</ul>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[移动端「油猴脚本」安装及使用]]></title>
+        <id>https://stone0118.github.io/post/yi-dong-duan-you-hou-jiao-ben-an-zhuang-ji-shi-yong/</id>
+        <link href="https://stone0118.github.io/post/yi-dong-duan-you-hou-jiao-ben-an-zhuang-ji-shi-yong/">
+        </link>
+        <updated>2022-09-01T15:13:31.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>在上一篇<a href="https://stone0118.github.io/post/tampermonkeyyou-hou-or-an-zhuang-ji-shi-yong-fang-fa/"><strong>PC端油猴脚本使用指南中</strong></a>【<strong>☜☜◀<em>点击可跳转</em></strong>】，我为大家简单介绍了用户脚本的一些能力介绍。在这一篇中，我将就两个主要话题继续分享一下：一个是<mark>IOS端</mark>浏览器使用用户脚本，另一个则是<mark>Android端</mark>浏览器使用脚本</p>
+</blockquote>
+<h1 id="ios-平台">iOS 平台</h1>
+<blockquote>
+<blockquote>
+<p><mark>Safari 浏览器</mark>：需要配合Userscripts ，本文将以Safari浏览器为例。</p>
+<hr>
+<p>能支持用户脚本的浏览器：</p>
+<ol>
+<li>Gear 浏览器：可以直接从脚本网站（如 <strong><a href="https://greasyfork.org/zh-CN">GreaseFork</a></strong> ）上安装用户脚本。订阅制收费。<br>
+使用方法见 文章：PC端| Tampermonkey（油猴）| 安装及使用方法</li>
+<li>Alook 浏览器：自定义设置中有一个「JavaScript 扩展」的功能。</li>
+</ol>
+</blockquote>
+<blockquote>
+<h2 id="插件介绍"><strong>插件介绍</strong></h2>
+<p><strong>Userscripts</strong> 是一款专门为 Safari 设计的<strong>免费开源「油猴脚本」管理器</strong>，支持 macOS 与 iPhone，可以极大的扩展 Safari 浏览器功能。 Userscripts 就是可以让海量的油猴脚本在 Safari<br>
+上运行的脚本管理器，和 Tampermonkey 是一个功能，只不过，<strong>它可以在 iPhone 上使用</strong>，就很香了。</p>
+</blockquote>
+<blockquote>
+<h2 id="插件安装"><strong>插件安装</strong></h2>
+<ol>
+<li>到商店下载：<br>
+<mark><a href="https://apps.apple.com/cn/app/userscripts/id1463298887"><strong>Userscripts</strong></a></mark>【<strong>☜☜◀<em>点击可跳转</em></strong>】</li>
+<li>下载完成后进行如下设置：<br>
+<strong>iPhone 系统设置 &gt; Safari 浏览器 &gt; 扩展 &gt; Userscripts</strong><img src="https://stone0118.github.io/post-images/1662045265993.png" alt="" loading="lazy"></li>
+<li>Userscripts设置：<br>
+打开 Userscripts 应用本体，只有一个界面，需要在这里点击 Set Userscripts Directory <strong>设置存放脚本的目录</strong>，之后只要这个目录下有新的脚本文件（.js），就会在 Safari 中自动加载。<img src="https://stone0118.github.io/post-images/1662045323869.png" alt="" loading="lazy"></li>
+</ol>
+</blockquote>
+<blockquote>
+<h2 id="使用插件并安装脚本"><strong>使用插件并安装脚本</strong></h2>
+<p>点开脚本网 <mark><a href="https://greasyfork.org/zh-CN"><strong>GreasyFork</strong></a></mark>【<strong>☜☜◀<em>点击可跳转</em></strong>】，根据自我需求进行安装使用，如图举例所示（GreasyFork中其它脚本操作方式都一样，自行参考哦~）<br>
+<img src="https://stone0118.github.io/post-images/1662045585585.png" alt="" loading="lazy"><br>
+<img src="https://stone0118.github.io/post-images/1662045592154.png" alt="" loading="lazy"><br>
+<img src="https://stone0118.github.io/post-images/1662045596256.png" alt="" loading="lazy"><br>
+<img src="https://stone0118.github.io/post-images/1662045602988.png" alt="" loading="lazy"><br>
+<img src="https://stone0118.github.io/post-images/1662045606631.png" alt="" loading="lazy"><br>
+<img src="https://stone0118.github.io/post-images/1662045612301.png" alt="" loading="lazy"><br>
+<img src="https://stone0118.github.io/post-images/1662045617945.png" alt="" loading="lazy"><br>
+<img src="https://stone0118.github.io/post-images/1662045622422.png" alt="" loading="lazy"></p>
+</blockquote>
+</blockquote>
+<h1 id="android平台">Android平台</h1>
+<blockquote>
+<h2 id="支持扩展插件安卓端浏览器">支持|扩展插件|安卓端浏览器</h2>
+<blockquote>
+<ul>
+<li><mark>Kiwi Browse</mark>：基于Chromium 核心，使用 Chrome 应用商店</li>
+<li>Firefox：使用 Firefox 应用商店，使用自己的 Gecko 浏览器核心</li>
+<li>Yandex：来自俄罗斯的应用，使用 Chrome 应用商店</li>
+<li>神马浏览器（Sleipnir Mobile）：使用自己的应用商店</li>
+</ul>
+</blockquote>
+<blockquote>
+<h3 id="kiwi-browser介绍"><strong>Kiwi Browser介绍</strong></h3>
+<p>以 Kiwi Browser 浏览器为例，虽然比起 Chrome 这种大牌选手 Kiwi Browser 的名气要小很多，但 <strong>「扩展插件支持」</strong> 却早已成为了 它独有的身份标签，事实上，作为一款基于Chromium和WebKit内核开发的浏览器，Kiwi Browser 几乎完整迁移了 Chrome 浏览器的扩展管理功能。<br>
+<strong>很遗憾移动端谷歌浏览器不支持扩展，此时<em>Kiwi Browser</em>将是不错的选择</strong>。</p>
+</blockquote>
+<blockquote>
+<h3 id="如何安装扩展"><strong>如何安装扩展</strong></h3>
+<ol>
+<li>像在桌面端的 Chrome 一样，访问 <mark><a href="https://chrome.google.com/webstore/category/extensions"><strong>Chrome 网上应用店</strong></a></mark>【<strong>☜☜◀<em>点击可跳转</em></strong>】，直接搜索并添加需要的扩展，直接搜索<strong>tampermonkey</strong>进行安装。<br>
+<img src="https://stone0118.github.io/post-images/1662052110712.png" alt="" loading="lazy"><br>
+安装好的扩展可以在菜单的「Extension」项中看到，也可以在地址栏中输入 <em><strong>chrome://extensions</strong></em>进行访问。打开/关闭扩展等选项，和桌面版 Chrome 基本一致。<br>
+<img src="https://stone0118.github.io/post-images/1662052132936.png" alt="" loading="lazy"></li>
+<li>如果因为一些网络原因，无法正常访问商店，那么你也可以手动安装 .crx/.zip 等格式的扩展。只要将扩展文件保存到本地，打开「开发者模式」，点按Load，然后选择扩展文件即可。前往<a href="https://chrome.zzzmh.cn/#/extension"><strong>极简插件</strong></a> 【<strong>☜☜◀<em>点击可跳转</em></strong>】进行安装也可。<br>
+<img src="https://stone0118.github.io/post-images/1662052163696.png" alt="" loading="lazy"><br>
+<strong>如果网络环境允许，建议直接通过 Chrome 网上应用店查找扩展，方便快捷。</strong></li>
+</ol>
+</blockquote>
+<h2 id="支持用户脚本移动端浏览器">支持|<em>用户脚本</em>|移动端浏览器</h2>
+<blockquote>
+<p>相对来说，<strong>支持用户脚本的移动端浏览器更多</strong>，对于浏览器开发者来说，只要适配一用Javascript<br>
+写的用户脚本就可以了。这些脚本经过很多年的沉淀，已经有了一套比较好的规范，加上也有比较完善的脚本分发渠道，因此开发者也完全不需要考虑上述应用商店上架、发布、审核的问题。</p>
+<ul>
+<li><mark>Via 浏览器</mark>：支持用户脚本</li>
+<li>X 浏览器：支持用户脚本</li>
+<li>M 浏览器：支持用户脚本</li>
+<li>油猴浏览器</li>
+</ul>
+</blockquote>
+<blockquote>
+<h3 id="via-介绍"><strong>Via 介绍</strong></h3>
+<p><mark><a href="https://viayoo.com/zh-cn/"><strong>以 Via 浏览器为例</strong></a></mark>【<strong>☜☜◀<em>点击可跳转</em></strong>】，其主<strong>打功能是轻量</strong>，安装包体积非常小。Via 浏览器刚上线的时候，不到 200kb 的体积确实非常惊艳。能做到这一点的原因是 Via 没有在安装包内放进浏览器内核，而是使用了你手机上 Android 系统的WebView。 同时 Via还支持自定义设置和插件，甚至还有人开发了第三方的 <mark><a href="http://via-app.cn/#/tabBar/home"><strong>via插件</strong></a></mark>【<strong>☜☜◀<em>点击可跳转</em></strong>】<br>
+<img src="https://stone0118.github.io/post-images/1662052518287.png" alt="" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<h3 id="如何使用"><strong>如何使用</strong></h3>
+<p>这个插件同时还支持 iOS 平台的 alook 浏览器等，这里我尝试安装一下这个「网页复制限制解除」的插件给大家看一下，点击安装之后自动弹出一个安装器来：<br>
+<img src="https://stone0118.github.io/post-images/1662052538771.png" alt="" loading="lazy"></p>
+</blockquote>
+</blockquote>
+<blockquote>
+<h1 id="总结">总结</h1>
+<h2 id="pc端">PC端</h2>
+<p><mark>谷歌浏览器/EDG浏览器+Tampermonkey+Greasy Fork</mark> 即可实现需要的功能；</p>
+<h2 id="移动端">移动端</h2>
+<p>IOS：<br>
+<mark>Safari + Userscripts + Greasy Fork</mark> 即可实现需要的功能；<br>
+Android：<br>
+<mark>Kiwi Browser + Tampermonkey + Greasy Fork</mark> 即可实现需要的功能；</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PC端| Tampermonkey（油猴）| 安装及使用方法]]></title>
+        <id>https://stone0118.github.io/post/tampermonkeyyou-hou-or-an-zhuang-ji-shi-yong-fang-fa/</id>
+        <link href="https://stone0118.github.io/post/tampermonkeyyou-hou-or-an-zhuang-ji-shi-yong-fang-fa/">
+        </link>
+        <updated>2022-09-01T10:51:33.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<h1 id="插件介绍"><strong>插件介绍</strong></h1>
+<p>Tampermonkey(俗称油猴) 是一款免费的<mark>浏览器扩展和用户脚本管理器</mark>，它<strong>适用于 Chrome, Microsoft Edge,Safari, Opera Next, 和 Firefox</strong>。通过它可在浏览器上使用、安装各种脚本，当然<strong>脚本文件还是需要自己获取</strong>。</p>
+<hr>
+<p>它可以做什么，例如：</p>
+<ul>
+<li>直接下载百度网盘文件(全速)</li>
+<li>去掉视频播放广告(甚至播放vip视频)</li>
+<li>去各类视频/图片水印</li>
+<li>绕过搜索引擎的跳转提示</li>
+<li>还原清新的小说阅读模式</li>
+<li>等等</li>
+</ul>
+</blockquote>
+<blockquote>
+<h1 id="插件安装"><strong>插件安装</strong></h1>
+<p>在浏览器的自带的插件商店，或者第三方插件商店（例如：<strong><a href="https://chrome.zzzmh.cn/index">极简插件_Chrome扩展插件商店</a></strong> 【<strong>☜☜◀<em>点击可跳转</em></strong>】，或者进入Tampermonkey官网（<strong><a href="https://www.tampermonkey.net/">Tampermonkey</a></strong>）【<strong>☜☜◀<em>点击可跳转</em></strong>】下载并安装。<br>
+<em><strong>以下都以Edge浏览器为例</strong></em>。<img src="https://stone0118.github.io/post-images/1662039341824.png" alt="" loading="lazy"><br>
+Tampermonkey Stable为正式版（<strong>选它</strong>），Tampermonkey Beta为测试版<br>
+点击<strong>下载</strong>，页面跳转至Edge外接扩展商店的安装页面，我们直接<strong>获取</strong>安装就好了，如下图。<br>
+<img src="https://stone0118.github.io/post-images/1662039352839.png" alt="" loading="lazy"><br>
+Edge以外的其他浏览器点击下载则会跳转至<a href="https://chrome.google.com/webstore/category/extensions"><strong>chrome<br>
+网上应用店</strong></a> 【<strong>☜☜◀<em>点击可跳转</em></strong>】正常情况下咱们是打不开的，<strong>需要科学上网</strong>才可以打开。</p>
+</blockquote>
+<blockquote>
+<h1 id="使用插件并安装脚本"><strong>使用插件并安装脚本</strong></h1>
+<ol>
+<li>下载成功后，会发现浏览器的<strong>右上角</strong>出现Tampermonkey 的<strong>图标</strong>（如未显示，可重新打开浏览器）。<br>
+当<strong>有脚本正在运行时</strong>，Tampermonkey图标右下角<strong>会显示数字</strong>，代表正有几个脚本正在运行，如果某脚本在不应当运行的页面运行（大部分脚本在介绍时都会说明应用的站点），请谨慎。<br>
+<img src="https://stone0118.github.io/post-images/1662039379117.png" alt="" loading="lazy"></li>
+<li>点开 <strong><a href="https://greasyfork.org/zh-CN/scripts">GreasyFork</a></strong>【<strong>☜☜◀<em>点击可跳转</em></strong>】 之后的页面是这样的：<br>
+<img src="https://stone0118.github.io/post-images/1662039408517.png" alt="" loading="lazy"></li>
+<li>这时候可以用关键词<strong>搜索</strong>或者<strong>脚本列表</strong>搜索相关的脚本.<br>
+<img src="https://stone0118.github.io/post-images/1662039562042.png" alt="" loading="lazy"></li>
+<li>我们这时候选择一个适合自己的，看简介是否符合的要求，选择适合自己的，然后点击“<strong>安装此脚本</strong>”的绿色按钮下载。<br>
+<img src="https://stone0118.github.io/post-images/1662039500705.png" alt="" loading="lazy"></li>
+<li>点开视频网站， 点击 Tampermonkey 的图标，找到插件点击左边的白点点，<strong>运行该插件</strong>（正常情况安装脚本后 会自动启动）。<br>
+<img src="https://stone0118.github.io/post-images/1662039530008.png" alt="" loading="lazy"></li>
+<li><strong>脚本管理</strong>,<strong>点击插件</strong>,然后在点击<strong>管理面板</strong>,这时候就可以展示我们安装的脚本了，可进行<strong>删除或者禁用</strong><br>
+<img src="https://stone0118.github.io/post-images/1662039539844.png" alt="" loading="lazy"><br>
+<img src="https://stone0118.github.io/post-images/1662039547070.png" alt="" loading="lazy"></li>
+</ol>
+</blockquote>
+<blockquote>
+<p><strong>使用须知：</strong><br>
+那么，安装的这些脚本靠谱吗？<br>
+恶意脚本是可以侵犯我们的隐私，并能够代表我们来进行其他操作。Tampermonkey本身是有着严格的权限设置的，只要你是在其官方渠道下载的脚本，我们应当在尽可能安全的渠道安装脚本。<br>
+<strong>最后，希望大家正确规范使用工具解决问题，合理使用，对他人负责，对自己负责。</strong></p>
+</blockquote>
+<blockquote>
+<h1 id="总结">总结</h1>
+<h2 id="pc端">PC端</h2>
+<p><mark>谷歌浏览器/EDG浏览器+Tampermonkey+Greasy Fork</mark> 即可实现需要的功能；</p>
+<h2 id="移动端">移动端</h2>
+<p>IOS：<br>
+<mark>Safari + Userscripts + Greasy Fork</mark> 即可实现需要的功能；<br>
+Android：<br>
+<mark>Kiwi Browser + Tampermonkey + Greasy Fork</mark> 即可实现需要的功能；</p>
+</blockquote>
+]]></content>
+    </entry>
+</feed>
